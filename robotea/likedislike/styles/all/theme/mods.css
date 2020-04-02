@@ -1,0 +1,27 @@
+.plusLikes {
+    color: lime;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.4;
+    padding: 0px;
+
+}
+.minusLikes {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.4;
+    padding:0px;
+
+}
+.plusMinusButton {
+    border: none;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 3px 2px;
+}

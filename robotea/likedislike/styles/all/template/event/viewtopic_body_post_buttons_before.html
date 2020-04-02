@@ -1,0 +1,21 @@
+
+<li id="plusminusbuttoncontainer">
+    <div class="plusMinusButton">
+        <div class="plusLikes">+{postrow.U_LIKES}</div>/<div class="minusLikes">-{postrow.U_DISLIKES}</div>&nbsp;
+    <div>
+</li>
+<!-- IF postrow.U_REGISTERED -->
+<li>
+    <a href="{postrow.U_URL_LIKE}" title="{L_LIKE_TEXT_VOTE}" class="button button-icon-only">
+        <i class="icon fa-plus fa-fw" aria-hidden="true"></i><span class="sr-only"><b>{L_LIKE_TEXT_VOTE}</b></span>
+    </a>
+</li>
+<li>
+    <a href="{postrow.U_URL_DISLIKE}" title="{L_DISLIKE_TEXT_VOTE}" class="button button-icon-only">
+        <i class="icon fa-minus fa-fw" aria-hidden="true"></i><span class="sr-only"><b>{L_DISLIKE_TEXT_VOTE}</b></span>
+    </a>
+</li>
+<!-- ENDIF -->
+<script>
+    document.getElementById('plusminusbuttoncontainer').parentElement.setAttribute("data-skip-responsive","true");
+</script>

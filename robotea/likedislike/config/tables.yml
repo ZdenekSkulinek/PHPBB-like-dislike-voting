@@ -1,0 +1,2 @@
+parameters:
+  robotea.likedislike.tables.likesdislikes: %core.table_prefix%likesdislikes
